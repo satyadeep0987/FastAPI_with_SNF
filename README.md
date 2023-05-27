@@ -34,3 +34,27 @@
         ```python
         source Virtual_Env/bin/activate
         ```
+
+2. Installing FastAPI library and other dependancy into virtual env:
+
+    ```python
+        pip install fastapi
+    ```
+
+    For server:
+
+    ```pyhton
+        pip install "uvicorn[standard]"
+    ```
+
+    For snowflake connection:
+
+    ```pyhton
+        pip install snowflake-connector-python
+    ```
+
+    Other required dependency:
+    ```python
+        pip install sqlalchemy
+        pip install databases 
+    ```
